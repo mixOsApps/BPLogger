@@ -1,7 +1,7 @@
 {
   "versionCode": 1,
   "versionName": "1.0.0",
-  "apkUrl": "https://raw.githubusercontent.com/mixOsApps/BPLogger/main/app_release.apk",
-  "releaseNotes": "App Release",
+  "apkUrl": "https://github.com/mixOsApps/BPLogger/releases/download/v.1.0.0/BPLogger_v1.0.0.apk",
+  "releaseNotes": "Initial App Release",
   "forceUpdate": true
 }
