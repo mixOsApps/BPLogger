@@ -1,7 +1,7 @@
 {
-  "versionCode": 5,
-  "versionName": "1.2.0",
-  "apkUrl": "https://github.com/mixOsApps/BPLogger/releases/download/1.2.0/BPLogger_v1.2.0.apk",
-  "releaseNotes": "Version 1.2.0 - UX Improvements and Bug Fixes",
+  "versionCode": 7,
+  "versionName": "1.3.0",
+  "apkUrl": "https://github.com/mixOsApps/BPLogger/releases/download/1.3.0/BPLogger_v1.3.0.apk",
+  "releaseNotes": "v1.3.0 — Restore from Google Sheet\n\n• Added \"Restore from Google Sheet\" feature in Settings\n• Pull synced records from Google Sheet back into the app\n• Smart duplicate detection — skips records already in the local database\n• Inline progress updates showing each restore step\n• Confirmation dialog before restore begins\n• Summary showing new records added vs. skipped\n• Updated Apps Script to support full record data retrieval\n• Removed \"Backup & Restore\" from Coming Soon (now implemented)\n\n——————————————\n\nVersion 1.2.0 — UX Improvements and Bug Fixes\nThis release focuses on improving the user experience and fixing several bugs related to data syncing and app updates.\n\n✨ Features & UX Improvements:\n• Swipe-to-Delete Rework (HomeScreen): Swiping a record no longer deletes it instantly. Instead, it now reveals a \"Delete\" button, requiring an explicit tap to confirm the deletion. This prevents accidental data loss.\n• Longer Undo Delay (HomeScreen): The \"Undo\" message after deleting a record now stays on screen for 10 seconds (up from 1.5 seconds), giving you more time to restore a deleted record.\n\n🐛 Bug Fixes:\n• Prevents Duplicate Syncing (SyncStatusManager): The app now checks for existing records in your Google Sheet before syncing. This prevents duplicate entries from being created if you've manually added data to the sheet or are syncing from multiple devices.\n• Improved Update Checking (AppUpdateManager): The app update checker was not always finding new updates due to aggressive caching. This has been fixed by disabling the HTTP cache for update checks, ensuring you're always notified of the latest version.",
   "forceUpdate": true
 }
