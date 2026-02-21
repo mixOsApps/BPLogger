@@ -1,7 +1,18 @@
 {
-  "versionCode": 4,
-  "versionName": "1.1.3",
-  "apkUrl": "https://github.com/mixOsApps/BPLogger/releases/download/1.1.3/BPLogger_v1.1.3.apk",
-  "releaseNotes": "Fixed Google Sheet Sync not syncing.",
+  "versionCode": 5,
+  "versionName": "1.2.0",
+  "apkUrl": "https://github.com/mixOsApps/BPLogger/releases/download/1.2.0/BPLogger_v1.2.0.apk",
+  "releaseNotes": "Version 1.2.0 - UX Improvements and Bug Fixes
+This release focuses on improving the user experience and fixing several bugs related to data syncing and app updates.
+✨ Features & UX Improvements:
+•
+Swipe-to-Delete Rework (HomeScreen): Swiping a record no longer deletes it instantly. Instead, it now reveals a "Delete" button, requiring an explicit tap to confirm the deletion. This prevents accidental data loss.
+•
+Longer Undo Delay (HomeScreen): The "Undo" message after deleting a record now stays on screen for 10 seconds (up from 1.5 seconds), giving you more time to restore a deleted record.
+🐛 Bug Fixes:
+•
+Prevents Duplicate Syncing (SyncStatusManager): The app now checks for existing records in your Google Sheet before syncing. This prevents duplicate entries from being created if you've manually added data to the sheet or are syncing from multiple devices.
+•
+Improved Update Checking (AppUpdateManager): The app update checker was not always finding new updates due to aggressive caching. This has been fixed by disabling the HTTP cache for update checks, ensuring you're always notified of the latest version.",
   "forceUpdate": true
 }
