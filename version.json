@@ -1,0 +1,7 @@
+{
+  "versionCode": 13,
+  "versionName": "2.0.0",
+  "apkUrl": "https://github.com/mixOsApps/BPLogger/releases/download/v2.0.0/app-release.apk",
+  "releaseNotes": "• Fixed R8 build errors for release builds.\n• Configured automated GitHub sync and release signing.\n• Internal performance improvements.",
+  "forceUpdate": false
+}
