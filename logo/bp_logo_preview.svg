@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 108 108">
+  <defs>
+    <!-- Subtle gradient for heart depth -->
+    <linearGradient id="heartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E53935"/>
+      <stop offset="50%" stop-color="#D32F2F"/>
+      <stop offset="100%" stop-color="#B71C1C"/>
+    </linearGradient>
+    <!-- Shadow filter -->
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+    <!-- Glow on pulse line -->
+    <filter id="pulseGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Heart shape - centered in 108x108 adaptive icon safe zone -->
+  <path
+    d="M54 78
+       C44 70 24 58 24 42
+       C24 33 31 26 40 26
+       C46 26 50 30 54 35
+       C58 30 62 26 68 26
+       C77 26 84 33 84 42
+       C84 58 64 70 54 78Z"
+    fill="url(#heartGrad)"
+    filter="url(#shadow)"
+  />
+
+  <!-- Subtle inner highlight for 3D effect -->
+  <path
+    d="M54 78
+       C44 70 24 58 24 42
+       C24 33 31 26 40 26
+       C46 26 50 30 54 35
+       C58 30 62 26 68 26
+       C77 26 84 33 84 42
+       C84 58 64 70 54 78Z"
+    fill="none"
+    stroke="#FF5252"
+    stroke-width="0.5"
+    opacity="0.3"
+  />
+
+  <!-- Pulse/ECG waveform line - yellow (#FBC02D) -->
+  <polyline
+    points="22,52  36,52  40,52  44,42  48,62  52,38  56,58  60,46  64,52  68,52  86,52"
+    fill="none"
+    stroke="#FBC02D"
+    stroke-width="3.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#pulseGlow)"
+  />
+</svg>
