@@ -1,7 +1,7 @@
 {
   "versionCode": 14,
   "versionName": "2.0.1",
-  "apkUrl": "https://github.com/mixOsApps/BPLogger/releases/download/v2.0.1/app-release.apk",
+  "apkUrl": "https://github.com/mixOsApps/BPLogger/releases/download/2.0.1/app-release.apk",
   "releaseNotes": "Heart Rate now Optional.",
   "forceUpdate": true
 }
