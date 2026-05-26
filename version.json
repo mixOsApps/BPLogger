@@ -1,7 +1,7 @@
 {
-  "versionCode": 14,
-  "versionName": "2.0.1",
-  "apkUrl": "https://github.com/mixOsApps/BPLogger/releases/download/2.0.1/app-release.apk",
-  "releaseNotes": "Heart Rate now Optional.",
+  "versionCode": 15,
+  "versionName": "2.0.2",
+  "apkUrl": "https://github.com/mixOsApps/BPLogger/releases/download/2.0.2/app-release.apk",
+  "releaseNotes": "Automatic Backup of database to Download Folder",
   "forceUpdate": true
 }
